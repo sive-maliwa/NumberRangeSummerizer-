@@ -48,7 +48,7 @@ import java.lang.StringBuilder;
 		 StringBuilder str = new StringBuilder("");
 		 for(int i = 0; i < array.size(); i++)
 		 {
-			 //range elements is they are sequential 
+			 //range elements if they are sequential 
 			 if(i!=0 && array.get(i)-array.get(i-1)==1)
 			 {
 				 if(str.toString().equals(""))
